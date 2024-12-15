@@ -14,6 +14,8 @@
 		325C50152D0DE5A400878798 /* AlarmAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325C50142D0DE5A400878798 /* AlarmAppTests.swift */; };
 		325C501F2D0DE5A400878798 /* AlarmAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325C501E2D0DE5A400878798 /* AlarmAppUITests.swift */; };
 		325C50212D0DE5A400878798 /* AlarmAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325C50202D0DE5A400878798 /* AlarmAppUITestsLaunchTests.swift */; };
+		32D8377D2D0E0A58004C6424 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D8377C2D0E0A58004C6424 /* AlarmView.swift */; };
+		32D8377F2D0E1BBA004C6424 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D8377E2D0E1BBA004C6424 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		325C501A2D0DE5A400878798 /* AlarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		325C501E2D0DE5A400878798 /* AlarmAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAppUITests.swift; sourceTree = "<group>"; };
 		325C50202D0DE5A400878798 /* AlarmAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32D8377C2D0E0A58004C6424 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		32D8377E2D0E1BBA004C6424 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				325C50062D0DE5A300878798 /* Assets.xcassets */,
 				325C50082D0DE5A300878798 /* AlarmApp.entitlements */,
 				325C50092D0DE5A300878798 /* Preview Content */,
+				32D8377C2D0E0A58004C6424 /* AlarmView.swift */,
+				32D8377E2D0E1BBA004C6424 /* AlertView.swift */,
 			);
 			path = AlarmApp;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				325C50052D0DE5A200878798 /* ContentView.swift in Sources */,
+				32D8377F2D0E1BBA004C6424 /* AlertView.swift in Sources */,
+				32D8377D2D0E0A58004C6424 /* AlarmView.swift in Sources */,
 				325C50032D0DE5A200878798 /* AlarmAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
